@@ -23,14 +23,14 @@ function Home() {
         <div className="mobile-side-menu">
           <div className="side-menu-content">
             <div className="side-menu-head">
-              <a href="index.html"><img src="assets/img/logo/logo-1.png" alt="logo" /></a>
+              <a href="index.html"><img src="assets/img/logo/interview_logo_copy.png" alt="logo" /></a>
               <button className="mobile-side-menu-close"><i className="fa-regular fa-xmark" /></button>
             </div>
             <div className="side-menu-wrap" />
             <ul className="side-menu-list">
-              <li><i className="fa-light fa-location-dot" />Address : <span>Amsterdam, 109-74</span></li>
-              <li><i className="fa-light fa-phone" />Phone : <a href="tel:+01569896654">+01 569 896 654</a></li>
-              <li><i className="fa-light fa-envelope" />Email : <a href="mailto:info@example.com">info@example.com</a></li>
+              <li><i className="fa-light fa-location-dot" />Address : Plot No:1, R-205, Pramod Rajshree Plaza, Vegetable Market Square, Khamla Rd, near Nayara Petrol Pump, Khamla, Nagpur, Maharashtra 440025</li>
+              <li><i className="fa-light fa-phone" />Mobole No. : +91-4642-3977</li>
+              <li><i className="fa-light fa-envelope" />Email : info@virtualglobetechnology.com</li>
             </ul>
           </div>
         </div>

@@ -8,7 +8,7 @@ function Header() {
         <div className="container">
           <div className="top-bar-inner">
             <div className="top-bar-left white-content">
-              <p className="mb-0">Admission Going On, Hurry To Enroll Now <span /></p>
+              <p className="mb-0">Get your Interview!<span /></p>
               <div className="rr-product-countdown" data-countdown data-date="Jun 30 2026 20:20:22">
                 <div className="rr-product-countdown-inner">
                   <ul>

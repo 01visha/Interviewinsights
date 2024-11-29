@@ -3874,7 +3874,7 @@ START: Header CSS
 }
 
 .side-menu-list li i {
-  background-color: var(--ed-color-theme-primary);
+  background-color: #035dc2;
   font-size: 12px;
   color: var(--ed-color-common-white);
   width: 30px;

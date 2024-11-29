@@ -1,6 +1,7 @@
 import React, { useState } from "react";
+import { useUserContext } from "../../context/UserContext";
 
-const ProfileUpdate = () => {
+const Myprofile = () => {
   const [resume, setResume] = useState(null);
 
   const handleFileUpload = (event) => {
@@ -13,11 +14,24 @@ const ProfileUpdate = () => {
     console.log("Uploaded resume:", resume);
   };
 
+
+  const { userData } = useUserContext();
+
+  if (!userData) {
+    return <p>Loading user data...</p>;
+  }
+
+
   return (
     <div className="container mt-5">
       <div className="row justify-content-center">
         <div className="col-md-6">
           <div className="card shadow">
+            <div className="card-header"> 
+            <img src={userData.picture} alt="Profile" width={50} height={50} />
+            <h2>Welcome!</h2> {userData.name}
+            <p>{userData.email}</p>
+           </div>
             <div className="card-header text-center">
               <h4>Update Profile</h4>
             </div>
@@ -33,7 +47,9 @@ const ProfileUpdate = () => {
                     className="form-control"
                     id="fullName"
                     placeholder="Enter your full name"
+                    value={userData.name}
                     required
+                    readOnly
                   />
                 </div>
 
@@ -47,7 +63,9 @@ const ProfileUpdate = () => {
                     className="form-control"
                     id="email"
                     placeholder="Enter your email"
+                    value={userData.email}
                     required
+                    readOnly
                   />
                 </div>
 
@@ -98,4 +116,4 @@ const ProfileUpdate = () => {
   );
 };
 
-export default ProfileUpdate;
+export default Myprofile;
