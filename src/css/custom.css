@@ -1,0 +1,19 @@
+.headerht{
+    height: 64px;
+    width: 64px;
+}
+.hero-content .hero-author {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    flex-wrap: wrap;
+    row-gap: 15px;
+    margin-bottom: 20px;
+}
+
+.txtcolor{
+
+    color: rgb(12, 12, 12);
+
+}
+
