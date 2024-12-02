@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Features() {
     return (
-    <section className="feature-section-4" id="features">
+    <section className="feature-section-4 pt-120" id="features">
         <div className="container">
           <div className="section-heading text-center">
             <h4 className="sub-heading wow fade-in-bottom" data-wow-delay="200ms"><span className="heading-icon"><i className="fa-sharp fa-solid fa-bolt" /></span>Our Features</h4>
@@ -16,7 +16,7 @@ export default function Features() {
                 <div className="content">
                   <h3 className="title">Accessibility &amp; Flexibility</h3>
                   <p>Online Interview should be accessible to learners from diverse backgrounds, offering the flexibility to study anytime.</p>
-                  <a href="about.html" className="ed-primary-btn">Learn More <i className="fa-sharp fa-regular fa-arrow-right" /></a>
+                  <a href="#" className="ed-primary-btn">Learn More <i className="fa-sharp fa-regular fa-arrow-right" /></a>
                 </div>
               </div>
             </div>
@@ -26,7 +26,7 @@ export default function Features() {
                 <div className="content">
                   <h3 className="title">Personalized Learning </h3>
                   <p>Online Interview should be accessible to learners from diverse backgrounds, offering the flexibility to study anytime.</p>
-                  <a href="about.html" className="ed-primary-btn">Learn More <i className="fa-sharp fa-regular fa-arrow-right" /></a>
+                  <a href="#" className="ed-primary-btn">Learn More <i className="fa-sharp fa-regular fa-arrow-right" /></a>
                 </div>
               </div>
             </div>
@@ -36,7 +36,7 @@ export default function Features() {
                 <div className="content">
                   <h3 className="title">High-Quality Instruction</h3>
                   <p>Online Interview should be accessible to learners from diverse backgrounds, offering the flexibility to study anytime.</p>
-                  <a href="about.html" className="ed-primary-btn">Learn More <i className="fa-sharp fa-regular fa-arrow-right" /></a>
+                  <a href="#" className="ed-primary-btn">Learn More <i className="fa-sharp fa-regular fa-arrow-right" /></a>
                 </div>
               </div>
             </div>

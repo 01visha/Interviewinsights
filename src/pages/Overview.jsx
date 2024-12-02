@@ -4,25 +4,26 @@ import React from "react";
 export default function Overview() {
     return (
     
-  <section id="overview" className="feature-section-4">
-  <div className="containerover">
+  <section id="overview" className="feature-section-4 pt-120">
+  <div className="container">
     <div className="section-heading text-center">
     <h4 className="sub-heading wow fade-in-bottom  text-center" data-wow-delay="200ms"><span className="heading-icon"><i className="fa-sharp fa-solid fa-bolt" /></span>Overview</h4>
     </div>
-    <div className="extras-wrapper">
-      <div className="div-block">
+    <div className="row gy-lg-0 gy-4 justify-content-center">
+    <div className="col-lg-4 col-md-6">
+    <div className="feature-card text-center wow fade-in-bottom" data-wow-delay="400ms">
         <img
           src="https://cdn.prod.website-files.com/66d04c99aaf4b1d7b96682e6/673965d5763e91c06161fb6c_emoji-robot_1f916.png"
           loading="lazy"
           alt=""
           className="image-8"
         />
-        <div className="div-block-2">
-          <div className="pr">
+        <div className="div-block-2-copy">
+         
             <div className="text-block-21-answers-copy-123">
               AI&nbsp;Answers
             </div>
-          </div>
+         
           <div className="text-block-19">
             <strong className="bold-text-2">100% Accurate Responses</strong>
           </div>
@@ -32,17 +33,19 @@ export default function Overview() {
           </div>
         </div>
       </div>
-      <div className="div-block">
+      </div>
+      <div className="col-lg-4 col-md-6">
+      <div className="feature-card text-center wow fade-in-bottom" data-wow-delay="400ms">
         <img
           src="https://cdn.prod.website-files.com/66d04c99aaf4b1d7b96682e6/67396648f56bb30229adfef0_emoji-studio-microphone_1f399-fe0f.png"
           loading="lazy"
           alt=""
           className="image-7"
         />
-        <div className="div-block-2">
-          <div className="prs">
-            <div className="text-block-20">Speech Recognition</div>
-          </div>
+        <div className="div-block-2-copy">
+          
+            <div className="text-block-21-answers-copy-123">Speech Recognition</div>
+          
           <div className="text-block-19">
             <strong className="bold-text">Blazing Fast Transcription</strong>
           </div>
@@ -51,11 +54,13 @@ export default function Overview() {
             accurate transcription in record breaking speed.
           </div>
         </div>
+        </div>
       </div>
     </div>
-    <div className="extras-wrapper-copy">
-      <div className="div-block-copy">
-        <div className="div-block-11">
+    <div className="row gy-lg-0 gy-4 justify-content-center margin-tb feature-card">
+    <div className="col-lg-4 col-md-6">
+    <div className="d-flex justify-content-center align-items-center flex-wrap">   
+    <div className="div-block-12">
           <img
             src="https://cdn.prod.website-files.com/66d04c99aaf4b1d7b96682e6/673970c9b3838173863c9bc1_Google_Meet_icon_(2020).svg%20(1).png"
             loading="lazy"
@@ -78,17 +83,20 @@ export default function Overview() {
             alt=""
             className="image-7"
           />
-        </div>
+       </div>
+       </div>
+</div>
+<div className="col-lg-4 col-md-6 text-center">
         <div className="div-block-2-copy">
           <div className="div-block-4">
-            <div className="text-block-20-copy-copy">All Platforms</div>
+            <div className="text-block-21-answers-copy-123">All Platforms</div>
           </div>
           <div className="title">
             <strong className="bold-text-3">
               Works with any video calling software
             </strong>
           </div>
-          <div className="text-block-19-copy">
+          <div className="text-block-19">
             You can use ParakeetAI with any video calling platform including
             Zoom, Google Meet, and Microsoft Teams.{" "}
           </div>
@@ -99,6 +107,8 @@ export default function Overview() {
             📹 Watch: How to Connect
           </a>
         </div>
+</div>
+<div className="col-lg-4 col-md-6">
         <div className="div-block-12">
           <img
             src="https://cdn.prod.website-files.com/66d04c99aaf4b1d7b96682e6/673967aee7df6842879f07d5_webex-logo.png"
@@ -120,8 +130,10 @@ export default function Overview() {
             alt=""
             className="image-7"
           />
-        </div>
-      </div>
+           </div>
+           </div>
+        
+     
     </div>
   </div>
 </section>

@@ -4,7 +4,7 @@ import React from "react";
 export default function Testimonials() {
     return (
 
-<section id="testimonials" className="hero-section">
+<section id="testimonials" className="hero-section pt-120">
 <div className="shapes">
 <div className="shape shape-2"><img src="assets/img/shapes/hero-shape-17-1.png" alt="shape" /></div>
 </div>

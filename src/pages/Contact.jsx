@@ -6,7 +6,7 @@ return(
 
 <section className="py-3 py-md-5 py-xl-8">
   <div className="container">
-    <div className="row rowtop">
+    <div className="row">
       <div className="col-12 col-md-10 col-lg-8">
       <div className="section-heading mb-0">
                   <h4 className="sub-heading wow fade-in-bottom" data-wow-delay="200ms"><span className="heading-icon"><i className="fa-sharp fa-solid fa-bolt" /></span>Contact</h4>

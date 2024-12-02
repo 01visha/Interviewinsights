@@ -65,7 +65,7 @@ function Header() {
                
               <Link to="/Signup">SignUp</Link>
                 
-                <a href="#" className="ed-primary-btn header-btn">Try For Free <i className="fa-sharp fa-regular fa-arrow-right" /></a>
+                <a href="/Signup" className="ed-primary-btn header-btn">Try For Free <i className="fa-sharp fa-regular fa-arrow-right" /></a>
                 <div className="header-logo d-none d-lg-none">
                   <a href="index.html">
                     <img src="assets/img/logo/logo-1.png" alt="Logo" />

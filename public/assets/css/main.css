@@ -2242,15 +2242,13 @@ ul {
 START: Header CSS
 ----------------------------------------*/
 .header {
-  background-color: var(--ed-color-common-white);
-  width: 100%;
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100%;
+  /* background-color: var(--ed-color-common-white); */
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
   z-index: 99;
   overflow-x: clip;
-  box-shadow: 0px 1px 3px 0px rgba(17, 17, 17, 0);
+  /* box-shadow: 0px 1px 3px 0px rgba(17, 17, 17, 0); */
 }
 .header .top-bar {
   background-color: #1F2C30;
@@ -2474,7 +2472,7 @@ START: Header CSS
   width: 100%;
   z-index: 1000;
   background-color: rgba(255, 255, 255, 0.526);  /* Adjust to match your header's design */
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for clarity */
+  /* box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); // Optional shadow for clarity */
   height: 80px; /* Adjust to your header's height */
   /* position: relative; */
 }
@@ -2504,6 +2502,13 @@ START: Header CSS
   position: relative;
   z-index: 2;
 }
+
+.header-logo img {
+  max-width: 150px;
+  height: auto;
+}
+
+
 .header .primary-header-inner .header-logo img {
   max-width: 224px;
 }
@@ -2520,7 +2525,7 @@ START: Header CSS
 .header .primary-header-inner .header-menu-wrap {
   display: flex !important;
   align-items: center;
-  margin-right: 121px;
+  /* margin-right: 121px; */
 }
 .header .primary-header-inner .header-menu-wrap .sub-menu {
   margin: 0;
@@ -2981,6 +2986,7 @@ START: Header CSS
 .header-2 .primary-header-inner .header-logo .fixed-logo {
   display: none;
 }
+
 .header-2 .primary-header-inner .header-right-wrap {
   display: flex;
   align-items: center;
@@ -3128,7 +3134,7 @@ START: Header CSS
   background-color: transparent;
 }
 .header-4 .primary-header .primary-header-inner {
-  background-color: #dfdcdc5e;
+  background-color: #9694f19c;
   padding: 0 30px;
   border-radius: 0 0 10px 10px;
   border-radius: 20px;
@@ -3296,7 +3302,7 @@ START: Header CSS
   width: 100%;
 }
 .primary-header.fixed {
-  background-color: var(--ed-color-common-white);
+  /* background-color: var(--ed-color-common-white); */
   position: fixed;
   left: 0;
   top: 0;
@@ -3306,7 +3312,7 @@ START: Header CSS
   -webkit-animation-duration: 1s;
   animation-timing-function: ease;
   -webkit-animation-timing-function: ease;
-  box-shadow: 0px 1px 3px 0px rgba(17, 17, 17, 0.1);
+  /* box-shadow: 0px 1px 3px 0px rgba(17, 17, 17, 0.1); */
   z-index: 99;
 }
 
@@ -7354,7 +7360,7 @@ START: Page Header CSS
 ----------------------------------------*/
 .hero-section {
   /* background-color: #b4b2eb7a; */
-  padding: 95px 0;
+  padding: 35px;
   position: relative;
   z-index: 1;
 }
@@ -7873,16 +7879,16 @@ START: Page Header CSS
 
 .hero-4 {
   /* background-color: #ecd4ff; */
-  padding: 121px 0 149px 0;
+  /* padding: 121px 0 149px 0; */
 }
 @media only screen and (max-width: 992px) {
   .hero-4 {
-    padding: 250px 0 100px 0;
+    /* padding: 250px 0 100px 0; */
   }
 }
 @media only screen and (max-width: 767px) {
   .hero-4 {
-    padding: 170px 0 100px 0;
+    /* padding: 170px 0 100px 0; */
   }
 }
 .hero-4 .shapes .shape.shape-1 {
@@ -11903,8 +11909,8 @@ START: Footer CSS
 }
 
 .div-block-10 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  /* padding-top: 2rem;
+  padding-bottom: 2rem; */
   position: relative;
   overflow: hidden;
 }
@@ -11941,8 +11947,7 @@ START: Footer CSS
 }
 
 .reviews_block {
-  display: inline-flex
-;
+  display: inline-flex;
   animation: scroll 60s linear infinite;
   /* white-space: nowrap; */
   grid-column-gap: 0px;
@@ -12125,7 +12130,7 @@ START: Footer CSS
   flex: 1;
   justify-content: center;
   align-items: center;
-  min-width: 360px;
+  /* min-width: 360px; */
   display: flex
 ;
 }
@@ -12158,7 +12163,7 @@ START: Footer CSS
   flex-flow: wrap;
   flex: 0 auto;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   display: flex
 ;
 }
@@ -12172,16 +12177,16 @@ START: Footer CSS
 }
 
 .div-block {
-  grid-column-gap: 20px;
-  grid-row-gap: 20px;
+  /* grid-column-gap: 20px;
+  grid-row-gap: 20px; */
   border: 1px solid #d3d3d3;
   border-radius: 10px;
-  flex-flow: row;
-  flex: 1;
+  /* flex-flow: row;
+  flex: 1; */
   justify-content: center;
   align-items: center;
-  padding: 30px 40px;
-  display: flex;
+  /* padding: 30px 40px; */
+  /* display: flex; */
   background-color: white;
   box-shadow: 0 4px 20px #0000001a;
 }
@@ -12368,8 +12373,11 @@ START: Footer CSS
 
 }
 
+.margin-tb{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
-    
-/* !END:  Footer CSS */
+
 
 /*# sourceMappingURL=main.css.map */

@@ -4,7 +4,7 @@ import React from "react";
 export default function Reviews() {
     return (
     
-<section id="reviews" className="feature-section-4 pt-120 pb-120">
+<section id="reviews" className="feature-section-4 pt-120">
 <div className="section-heading text-center">
     <h4 className="sub-heading wow fade-in-bottom  text-center" data-wow-delay="200ms"><span className="heading-icon"><i className="fa-sharp fa-solid fa-bolt" /></span>Reviews</h4>
     </div>    
