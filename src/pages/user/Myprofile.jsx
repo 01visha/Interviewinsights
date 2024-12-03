@@ -39,15 +39,15 @@ const Myprofile = () => {
         }}
       >
         <img
-          src="https://lh3.googleusercontent.com/a/ACg8ocLCXpP9wahsKFRve2S2l0bH-YPwRoLepc_qSKI9arwiVChgKA=s96-c"
+          src={userData.picture}
           alt="Profile"
           width={50}
-          height={50}
+          height={50}          
         />
-        <span style={{ marginLeft: 32 }}>Welcome! Vishakha Nikhar</span>
+        <span style={{ marginLeft: 32 }}>Welcome! {userData.name}</span>
         <br />
         <span style={{ marginLeft: 51 }}>
-          (vishakha@virtualglobetechnology.com)
+          ({userData.email})
         </span>
       </div>
     </div>
@@ -69,7 +69,7 @@ const Myprofile = () => {
                 placeholder="Enter your full name"
                 required=""
                 readOnly=""
-                defaultValue="Vishakha Nikhar"
+                defaultValue={userData.name}
               />
             </div>
             <div className="mb-3">
@@ -83,7 +83,7 @@ const Myprofile = () => {
                 placeholder="Enter your email"
                 required=""
                 readOnly=""
-                defaultValue="vishakha@virtualglobetechnology.com"
+                defaultValue={userData.email}
               />
             </div>
             <div className="mb-3">

@@ -11534,8 +11534,8 @@ START: Footer CSS
   font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
-  margin-bottom: 35px;
-  padding-bottom: 15px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
   position: relative;
 }
 .footer-widget .widget-header:before {
@@ -11593,7 +11593,9 @@ START: Footer CSS
   color: var(--ed-color-theme-primary);
 }
 .footer-widget .footer-list li:not(:last-of-type) {
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
+  padding: 0px;
+  margin: 0px;
 }
 .footer-widget .footer-form {
   position: relative;

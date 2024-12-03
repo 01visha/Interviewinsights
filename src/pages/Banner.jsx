@@ -24,7 +24,7 @@ export default function Features() {
                   <a href="contact.html" className="ed-primary-btn active">Try For Free <span><i className="fa-solid fa-plus" /></span></a>
                   {/* <a href="contact.html" className="ed-primary-btn">Download  Brochure <span><i className="fa-solid fa-plus" /></span></a> */}
                 </div>
-                <div classname="hero-author">
+                <div className="hero-author">
                   <ul>
                     <li><img src="assets/img/images/hero-author-1.png" alt="img" /></li>
                     <li><img src="assets/img/images/hero-author-2.png" alt="img" /></li>
@@ -42,7 +42,7 @@ export default function Features() {
                 
                   {/* <img src="assets/img/images/hero-img-2.png" alt="hero" /> */}
                   <div className="video w-video newpadd">
-                      <iframe className="embedly-embed" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FvVxElmix4hQ&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DvVxElmix4hQ&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FvVxElmix4hQ%2Fhqdefault.jpg&type=text%2Fhtml&schema=youtube" width="100%" height="100%" scrolling="no" allowfullscreen="" title="Get The Interview Demo! 🖥️"></iframe>
+                      <iframe className="embedly-embed" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FvVxElmix4hQ&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DvVxElmix4hQ&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FvVxElmix4hQ%2Fhqdefault.jpg&type=text%2Fhtml&schema=youtube" width="100%" height="100%" scrolling="no" allowFullScreen="" title="Get The Interview Demo! 🖥️"></iframe>
                      
                   </div>
                 <div> 
