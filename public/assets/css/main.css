@@ -11516,8 +11516,9 @@ START: Footer CSS
 }
 
 .footer-wrap {
-  margin-bottom: 80px;
+  /* margin-bottom: 80px; */
 }
+
 @media only screen and (max-width: 992px) {
   .footer-wrap {
     margin-bottom: 30px;
@@ -11799,7 +11800,8 @@ START: Footer CSS
   border-top-left-radius: 24px;
     border-top-right-radius: 24px;
     padding-top: 3rem;
-    padding-bottom: 3rem;
+    margin-top: 20px;
+    /* padding-bottom: 3rem; */
 }
 .footer-3 .footer-widget .footer-social li {
   display: inline-flex;
@@ -12356,6 +12358,7 @@ START: Footer CSS
 
 
 /* header css */
+
 .headerht{
   height: 64px;
   width: 64px;
@@ -12381,5 +12384,32 @@ START: Footer CSS
 }
 
 
+/* User Login CSS */
+
+.card-head{
+  background-color: #b18cf4ce;
+}
+
+.card-header-head{
+  background-color: #7e44e9;
+}
+
+.mg-ch{
+  margin-left: 239px;
+  margin-right: 239px;
+  background-color: #6d2de4;
+}
+
+button.mg-ch:hover{
+  background-color: #4350f1;
+  color:white;
+}
+
+/* OTP CSS */
+
+.bg-otp{
+  background-color: #4350f1;
+  color:white;
+}
 
 /*# sourceMappingURL=main.css.map */

@@ -53,7 +53,7 @@ const Myprofile = () => {
     </div>
     <div className="col-md-7">
       <div className="card shadow">
-        <div className="card-header text-center">
+        <div className="card-header card-header-head text-center">
           <h4>Update Profile</h4>
         </div>
         <div className="card-body">
@@ -67,8 +67,7 @@ const Myprofile = () => {
                 className="form-control"
                 id="fullName"
                 placeholder="Enter your full name"
-                required=""
-                readOnly=""
+                required=""              
                 defaultValue={userData.name}
               />
             </div>
@@ -82,7 +81,6 @@ const Myprofile = () => {
                 id="email"
                 placeholder="Enter your email"
                 required=""
-                readOnly=""
                 defaultValue={userData.email}
               />
             </div>
@@ -109,7 +107,7 @@ const Myprofile = () => {
               />
             </div>
             <div className="d-grid">
-              <button type="submit" className="btn btn-primary">
+              <button type="submit" className="btn mg-ch">
                 Update Profile
               </button>
             </div>

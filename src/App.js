@@ -10,7 +10,9 @@ import Features from "./pages/Features";
 import Reviews from "./pages/Reviews";
 import Contact from "./pages/Contact";
 import Signup from "./pages/Signup";
+import Otp from "./pages/Otp";
 import Myprofile from "./pages/user/Myprofile";
+
 import './App.css';
 import { UserProvider } from "./context/UserContext";
 import { GoogleOAuthProvider } from '@react-oauth/google';
@@ -31,7 +33,8 @@ function App() {
             <Route path="/Reviews" element={<Reviews />} />
             <Route path="/Contact" element={<Contact />} /> 
             <Route path="/Signup" element={<Signup />} />
-            <Route path='/user/Myprofile' element={<Myprofile />} />
+            <Route path='/Myprofile' element={<Myprofile />} />
+            <Route path='/Otp' element={<Otp />} />
             <Route path="*" element={<Home />} /> 
          </Routes>      
       <Footer />

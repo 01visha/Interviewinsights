@@ -1,7 +1,22 @@
-import React from "react";
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
+
 function Header() {
+  const [activeHash, setActiveHash] = useState(window.location.hash);
+
+  useEffect(() => {
+    const handleHashChange = () => {
+      setActiveHash(window.location.hash);
+    };
+
+    window.addEventListener('hashchange', handleHashChange);
+
+    return () => {
+      window.removeEventListener('hashchange', handleHashChange);
+    };
+   }, []);
+
     return (
       <header className="header header-2 header-4 sticky-active">
       <div className="top-bar d-none">
@@ -49,15 +64,26 @@ function Header() {
             <div className="header-right-wrap">
               <div className="header-menu-wrap">
                 <div className="mobile-menu-items">
-                  <ul className="sub-menu">
-                    <li className=" active"><a href="/">Home</a></li>                
-                    {/* <li className="menu-item-has-children"> */}
-                    <li><a href="/#testimonials">Testimonials</a></li>
-                    <li><a href="/#overview">Overview</a></li>
-                    <li><a href="/#features">Features</a></li>
-                    <li><a href="/#reviews">Reviews</a></li>
-                    <li><Link to="/Contact">Contact</Link></li>
-                  </ul>
+                <ul className="sub-menu">
+                  <li className={activeHash === '' ? 'active' : ''}>
+                    <a href="/">Home</a>
+                  </li>
+                  <li className={activeHash === '#testimonials' ? 'active' : ''}>
+                    <a href="/#testimonials">Testimonials</a>
+                  </li>
+                  <li className={activeHash === '#overview' ? 'active' : ''}>
+                    <a href="/#overview">Overview</a>
+                  </li>
+                  <li className={activeHash === '#features' ? 'active' : ''}>
+                    <a href="/#features">Features</a>
+                  </li>
+                  <li className={activeHash === '#reviews' ? 'active' : ''}>
+                    <a href="/#reviews">Reviews</a>
+                  </li>
+                  <li className={activeHash === '/Contact' ? 'active' : ''}>
+                    <Link to="/Contact">Contact</Link>
+                  </li>
+                </ul>
                 </div>
               </div>
               {/* /.header-menu-wrap */}
@@ -72,7 +98,7 @@ function Header() {
                   </a>
                 </div>
                 <div className="header-right-item d-lg-none d-md-block">
-                  <a href="javascript:void(0)" className="mobile-side-menu-toggle"><i className="fa-sharp fa-solid fa-bars" /></a>
+                  <a href="#" className="mobile-side-menu-toggle" onClick={(e) => e.preventDefault()}><i className="fa-sharp fa-solid fa-bars" /></a>
                 </div>
               </div>
               {/* /.header-right */}

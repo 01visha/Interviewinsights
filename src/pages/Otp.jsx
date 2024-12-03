@@ -58,45 +58,14 @@ export default function Signup() {
                   <img className="img-logo" src="assets/img/logo/interview_logo_copy.png" alt="Logo" />
                 </a>
               </p>
-              <h1 className="h5 font-weight-medium">Sign In</h1>
-              <p className="text-muted">You can currently sign in with Google. More providers coming soon.</p>
+              <h1 className="h5 font-weight-medium">OTP</h1>
+              <p className="text-muted">Please Enter OTP send on your mobile no.</p>
             </div>
             <div className="d-flex flex-column align-items-center gap-3">
-              <button
-                className="btn btn-primary btn-block d-flex align-items-center gap-2"
-                onClick={() => login()}
-              >
-                <img
-                  alt="Google"
-                  loading="lazy"
-                  width="20"
-                  height="20"
-                  decoding="async"
-                  src="https://authjs.dev/img/providers/google.svg"
-                />
-                Sign in with Google
-              </button>
-              <div className="d-flex align-items-center text-muted my-3">
-                <div className="flex-fill border-bottom mx-2"></div>
-                <span>or continue with Mobile No.</span>
-                <div className="flex-fill border-bottom mx-2"></div>
-              </div>
               <form className="d-flex gap-2 w-100">
-                <input type="text" className="form-control" placeholder="Mobile No." value="" />
-                <button type="submit" className="btn btn-outline-secondary" disabled>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
-                    <path d="M18 8L22 12L18 16"></path>
-                    <path d="M2 12H22"></path>
-                  </svg>
+                <input type="text" className="form-control" placeholder="Enter OTP" value="" />
+                <button type="submit" className="btn bg-otp">
+                  Send OTP                  
                 </button>
               </form>
             </div>
