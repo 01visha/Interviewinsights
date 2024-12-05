@@ -11582,6 +11582,8 @@ START: Footer CSS
 }
 .footer-widget .footer-list {
   list-style: none;
+  margin-top: 10px;
+
 }
 .footer-widget .footer-list li a {
   font-family: var(--ed-ff-body);
@@ -11903,8 +11905,8 @@ START: Footer CSS
 }
 
 .padding-global.no-bottom-padding.reviews {
-  background-color: #7dd5ff80;
-  background-image: radial-gradient(circle at 0 0, #7dd3fc80, #b464f280 67%);
+   background-color: transparent; 
+  /* background-image: radial-gradient(circle at 0 0, #c1b7fa, #bdb7fa 67%); */
 }
 .padding-global.no-bottom-padding {
   background-color: #fff;
@@ -12241,7 +12243,7 @@ START: Footer CSS
 
 .homebg{
   /* background-color: #5700ff;  */
-  background: linear-gradient(to bottom, #ffffff, #5700ff); /* Light blue to dark blue */
+  background: linear-gradient(to bottom, #ffffff, #cdc5f8); /* Light blue to dark blue */
  
 }
 
@@ -12411,5 +12413,120 @@ button.mg-ch:hover{
   background-color: #4350f1;
   color:white;
 }
+
+
+/* Pricing css */
+
+.butn {
+  background-color: #465bf6 !important; /* Default background color */
+  color: white; /* Ensure text color is white */
+  font-weight: bold; /* Bold text */
+  border: none; /* Optional: Remove border if not needed */
+  padding: 0.5rem 1rem; /* Optional: Add padding for better appearance */
+  border-radius: 0.25rem; /* Optional: Add border radius */
+  cursor: pointer; /* Add pointer cursor on hover */
+}
+
+.butn:hover {
+  background-color: #1932ef !important; /* Change background color on hover */
+}
+
+.butn1top{
+  margin-top: 124px;
+}
+
+.butn2top{
+  margin-top: 98px;
+}
+
+.textcol{
+  color: rgb(255 173 7 / 87%) !important;
+}
+
+.line-through-red {
+  text-decoration-line: line-through;
+  text-decoration-color: red;
+  color: white; /* Keep text color white */
+}
+
+.responsive-heading {
+  font-size: 1.25rem; /* Equivalent to h4 */
+  font-weight: 700; /* Equivalent to fw-bold */
+  margin-left: auto; /* Centers horizontally when paired with margin-right: auto */
+  margin-right: auto;
+  transition: all 0.5s ease; /* Smooth transition for all properties */
+  color: #0651b9;
+}
+
+@media (min-width: 576px) { /* Equivalent to h3-sm (sm breakpoint) */
+  .responsive-heading {
+    font-size: 1.75rem; /* Equivalent to h3 */
+  }
+}
+
+.responsive-heading:hover {
+  color: #2a21a8; /* hover:text-purple-700 */
+  transform: scale(1.05); /* hover:scale-105 */
+}
+
+.responsive-subheading {
+  margin-bottom: 1rem; /* Equivalent to mb-4 */
+  font-size: 1.25rem; /* Equivalent to h4 */
+  font-weight: 700; /* Equivalent to fw-bold */
+  background-clip: text; /* bg-clip-text */
+  -webkit-background-clip: text; /* For cross-browser support */
+  color: #2079f6; /* text-transparent */
+  margin-top: 1.5rem; /* my-6 -> mt-6 */
+  margin-bottom: 1.5rem; /* my-6 -> mb-6 */
+  transition: all 0.7s ease-in-out; /* Smooth transitions */
+}
+
+@media (min-width: 576px) { /* Responsive adjustment for h3-sm (sm breakpoint) */
+  .responsive-subheading {
+    font-size: 1.75rem; /* Equivalent to h3 */
+  }
+}
+
+.responsive-subheading:hover {
+  transform: scale(1.1); /* hover:scale-110 */
+  color: #2a21a8; /* hover:text-purple-700 */
+}
+
+.card-container {
+  background-image: linear-gradient(45deg, #6787cc, transparent);
+  background-color: var(--primary-bg-color); /* Replace with actual color or use bg class */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* shadow equivalent */
+  border-radius: 1rem; /* rounded-2xl */
+  padding: 1rem; /* p-4 */
+  color: black; /* text-black */
+  text-align: center; /* text-center */
+  transition: all 0.7s ease-in-out; /* Smooth transitions */
+  height: 420px;
+}
+
+.card-container:hover {
+  transform: scale(1.05); /* hover:scale-105 */
+  background: linear-gradient(to top, #6664f4, #6e8fef); /* Gradient on hover */
+}
+
+.card-container1 {
+  background-image: linear-gradient(45deg, #6787cc, transparent);
+  background-color: var(--primary-bg-color); /* Replace with actual color or use bg class */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* shadow equivalent */
+  border-radius: 1rem; /* rounded-2xl */
+  padding: 1rem; /* p-4 */
+  color: black; /* text-black */
+  text-align: center; /* text-center */
+  transition: all 0.7s ease-in-out; /* Smooth transitions */
+}
+.card-container1:hover {
+  transform: scale(1.05); /* hover:scale-105 */
+  background: linear-gradient(to top, #6664f4, #6e8fef); /* Gradient on hover */
+}
+
+.custom-check-icon {
+  color: rgb(2, 94, 37); /* Replace with the desired shade of dark green */
+}
+
 
 /*# sourceMappingURL=main.css.map */

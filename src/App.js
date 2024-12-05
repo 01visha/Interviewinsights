@@ -12,6 +12,7 @@ import Contact from "./pages/Contact";
 import Signup from "./pages/Signup";
 import Otp from "./pages/Otp";
 import Myprofile from "./pages/user/Myprofile";
+import Pricing from "./pages/Pricing";
 
 import './App.css';
 import { UserProvider } from "./context/UserContext";
@@ -35,6 +36,7 @@ function App() {
             <Route path="/Signup" element={<Signup />} />
             <Route path='/Myprofile' element={<Myprofile />} />
             <Route path='/Otp' element={<Otp />} />
+            <Route path='/Pricing' element={<Pricing />} />
             <Route path="*" element={<Home />} /> 
          </Routes>      
       <Footer />

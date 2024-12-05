@@ -7,9 +7,9 @@ export default function Features() {
 <section className="hero-section hero-4 overflow-hidden" id="home">
          <div className="shapes">
           {/* <div className="shape shape-1"><img src="assets/img/shapes/hero-shape-16.png" alt="shape" /></div>  */}
-          <div className="shape shape-2"><img src="assets/img/shapes/hero-shape-17-1.png" alt="shape" /></div>
+          {/* <div className="shape shape-2"><img src="assets/img/shapes/hero-shape-17-1.png" alt="shape" /></div> */}
            {/* <div className="shape shape-3"><img src="assets/img/shapes/hero-shape-18-1.png" alt="shape" /></div>  */}
-          <div className="shape shape-4"><img src="assets/img/shapes/hero-shape-19-1.png" alt="shape" /></div> 
+          {/* <div className="shape shape-4"><img src="assets/img/shapes/hero-shape-19-1.png" alt="shape" /></div>  */}
         </div> 
         <div className="container">
           <div className="row align-items-center">

@@ -80,7 +80,7 @@ return(
                 <h4 className="mb-2">Office</h4>
                 <p className="mb-2">Please visit us to have a discussion.</p>
                 <hr className="w-50 mb-3 border-dark-subtle"></hr>
-                <address className="m-0  "> Plot No:1, R-205, Pramod Rajshree Plaza,<br /> Vegetable Market Square, Khamla Rd, near Nayara Petrol Pump,<br /> Khamla, Nagpur, Maharashtra 440025</address>
+                <address className="m-0  "> 231, Bharat Ind Est, Lbs Road, Bhandup (w)<br /> Mumbai, Maharashtra 440025</address>
               </div>
             </div>
             <div className="row mb-sm-4 mb-md-5">
@@ -95,7 +95,7 @@ return(
                     <h4 className="mb-2">Phone</h4>
                     <p className="mb-2">Please speak with us directly.</p>
                     <hr className="w-75 mb-3 border-dark-subtle"></hr>
-                    <p className="mb-0">+91-4642-3977
+                    <p className="mb-0">+91-1234 5678 21
                       {/* <a className="text-decoration-none" href="tel:+15057922430">+91-4642-3977</a> */}
                     </p>
                   </div>
@@ -113,7 +113,7 @@ return(
                     <h4 className="mb-2">Email</h4>
                     <p className="mb-2">Please write to us directly.</p>
                     <hr className="w-75 mb-3 border-dark-subtle"></hr>
-                    <p className="mb-0">info@virtualglobetechnology.com
+                    <p className="mb-0">info@example.com
                       {/* <a className="text-decoration-none" href="mailto:demo@yourdomain.com">demo@yourdomain.com</a> */}
                     </p>
                   </div>
