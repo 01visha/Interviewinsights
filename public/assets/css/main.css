@@ -75,7 +75,7 @@ img {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 a,
@@ -145,14 +145,14 @@ p {
 
 a:focus,
 .button:focus {
-  text-decoration: none;
+  text-decoration: none !important;
   outline: none;
 }
 
 a:focus,
 a:hover {
   color: inherit;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 a:hover {
@@ -2557,7 +2557,7 @@ START: Header CSS
   font-weight: 600;
   text-transform: uppercase;
   position: relative;
-  text-decoration: none;
+  text-decoration: none !important;
   -webkit-font-smoothing: antialiased;
   transition: all 0.3s ease-in-out;
 }
@@ -11538,6 +11538,7 @@ START: Footer CSS
   margin-bottom: 0px;
   padding-bottom: 0px;
   position: relative;
+  margin-left: 32px;
 }
 .footer-widget .widget-header:before {
   background-color: var(--ed-color-common-white);
@@ -11802,7 +11803,7 @@ START: Footer CSS
   border-top-left-radius: 24px;
     border-top-right-radius: 24px;
     padding-top: 3rem;
-    margin-top: 20px;
+    margin-top: 40px;
     /* padding-bottom: 3rem; */
 }
 .footer-3 .footer-widget .footer-social li {
@@ -12381,7 +12382,7 @@ START: Footer CSS
 }
 
 .margin-tb{
-  margin-top: 10px;
+  margin-top: 40px !important;
   margin-bottom: 10px;
 }
 
@@ -12418,17 +12419,17 @@ button.mg-ch:hover{
 /* Pricing css */
 
 .butn {
-  background-color: #465bf6 !important; /* Default background color */
-  color: white; /* Ensure text color is white */
-  font-weight: bold; /* Bold text */
-  border: none; /* Optional: Remove border if not needed */
-  padding: 0.5rem 1rem; /* Optional: Add padding for better appearance */
-  border-radius: 0.25rem; /* Optional: Add border radius */
-  cursor: pointer; /* Add pointer cursor on hover */
+  background-color: #465bf6 !important; 
+  color: white; 
+  font-weight: bold; 
+  border: none; 
+  padding: 0.5rem 1rem; 
+  border-radius: 0.25rem; 
+  cursor: pointer; 
 }
 
 .butn:hover {
-  background-color: #1932ef !important; /* Change background color on hover */
+  background-color: #1932ef !important;
 }
 
 .butn1top{
@@ -12446,86 +12447,86 @@ button.mg-ch:hover{
 .line-through-red {
   text-decoration-line: line-through;
   text-decoration-color: red;
-  color: white; /* Keep text color white */
+  color: white; 
 }
 
 .responsive-heading {
-  font-size: 1.25rem; /* Equivalent to h4 */
-  font-weight: 700; /* Equivalent to fw-bold */
-  margin-left: auto; /* Centers horizontally when paired with margin-right: auto */
+  font-size: 1.25rem; 
+  font-weight: 700; 
+  margin-left: auto; 
   margin-right: auto;
-  transition: all 0.5s ease; /* Smooth transition for all properties */
-  color: #0651b9;
+  transition: all 0.5s ease; 
+  color: #121212;
 }
 
-@media (min-width: 576px) { /* Equivalent to h3-sm (sm breakpoint) */
+@media (min-width: 576px) { 
   .responsive-heading {
-    font-size: 1.75rem; /* Equivalent to h3 */
+    font-size: 1.75rem;
   }
 }
 
 .responsive-heading:hover {
-  color: #2a21a8; /* hover:text-purple-700 */
-  transform: scale(1.05); /* hover:scale-105 */
+  color: #383739; 
+  transform: scale(1.05);
 }
 
 .responsive-subheading {
-  margin-bottom: 1rem; /* Equivalent to mb-4 */
-  font-size: 1.25rem; /* Equivalent to h4 */
-  font-weight: 700; /* Equivalent to fw-bold */
-  background-clip: text; /* bg-clip-text */
-  -webkit-background-clip: text; /* For cross-browser support */
-  color: #2079f6; /* text-transparent */
-  margin-top: 1.5rem; /* my-6 -> mt-6 */
-  margin-bottom: 1.5rem; /* my-6 -> mb-6 */
-  transition: all 0.7s ease-in-out; /* Smooth transitions */
+  margin-bottom: 1rem; 
+  font-size: 1.25rem; 
+  font-weight: 700; 
+  background-clip: text; 
+  -webkit-background-clip: text;
+  color: #121212;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem; 
+  transition: all 0.7s ease-in-out; 
 }
 
-@media (min-width: 576px) { /* Responsive adjustment for h3-sm (sm breakpoint) */
+@media (min-width: 576px) { 
   .responsive-subheading {
-    font-size: 1.75rem; /* Equivalent to h3 */
+    font-size: 1.75rem; 
   }
 }
 
 .responsive-subheading:hover {
-  transform: scale(1.1); /* hover:scale-110 */
-  color: #2a21a8; /* hover:text-purple-700 */
+  transform: scale(1.1); 
+  color: #383739; 
 }
 
 .card-container {
   background-image: linear-gradient(45deg, #6787cc, transparent);
-  background-color: var(--primary-bg-color); /* Replace with actual color or use bg class */
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* shadow equivalent */
-  border-radius: 1rem; /* rounded-2xl */
-  padding: 1rem; /* p-4 */
-  color: black; /* text-black */
-  text-align: center; /* text-center */
-  transition: all 0.7s ease-in-out; /* Smooth transitions */
+  background-color: var(--primary-bg-color);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+  border-radius: 1rem; 
+  padding: 1rem; 
+  color: black;
+  text-align: center;
+  transition: all 0.7s ease-in-out;
   height: 420px;
 }
 
 .card-container:hover {
-  transform: scale(1.05); /* hover:scale-105 */
-  background: linear-gradient(to top, #6664f4, #6e8fef); /* Gradient on hover */
+  transform: scale(1.05); 
+  background: linear-gradient(to top, #6664f4, #6e8fef63); 
 }
 
 .card-container1 {
   background-image: linear-gradient(45deg, #6787cc, transparent);
-  background-color: var(--primary-bg-color); /* Replace with actual color or use bg class */
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* shadow equivalent */
-  border-radius: 1rem; /* rounded-2xl */
-  padding: 1rem; /* p-4 */
-  color: black; /* text-black */
-  text-align: center; /* text-center */
-  transition: all 0.7s ease-in-out; /* Smooth transitions */
+  background-color: var(--primary-bg-color); 
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+  border-radius: 1rem; 
+  padding: 1rem;
+  color: black;
+  text-align: center;
+  transition: all 0.7s ease-in-out; 
 }
 .card-container1:hover {
-  transform: scale(1.05); /* hover:scale-105 */
-  background: linear-gradient(to top, #6664f4, #6e8fef); /* Gradient on hover */
+  transform: scale(1.05); 
+  background: linear-gradient(to top, #6664f4, #6e8fef63);
 }
 
 .custom-check-icon {
-  color: rgb(2, 94, 37); /* Replace with the desired shade of dark green */
+  color: rgb(2, 94, 37);
 }
 
 
